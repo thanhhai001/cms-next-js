@@ -1,0 +1,45 @@
+{
+  "menu": {
+    "home": {
+      "title": "Home"
+    },
+    "about": {
+      "title": "About Us"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "other": {
+      "title": "Other"
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "(meta) Home Title",
+      "description": "(meta) Home description"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Home Title",
+      "description": "Home description"
+    },
+    "about": {
+      "title": "About Us Title",
+      "description": "About Us description"
+    },
+    "contact": {
+      "title": "Contact Title",
+      "description": "Contact description"
+    },
+    "other": {
+      "title": "Other Title",
+      "description": "Other description"
+    }
+  },
+  "errors": {
+    "404": {
+      "message": "404 Page Not Found"
+    }
+  }
+}

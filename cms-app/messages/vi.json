@@ -1,0 +1,45 @@
+{
+  "menu": {
+    "home": {
+      "title": "Trang chủ"
+    },
+    "about": {
+      "title": "Giới thiệu về chúng tôi"
+    },
+    "contact": {
+      "title": "Liên hệ"
+    },
+    "other": {
+      "title": "Khác"
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "(meta) Tiêu đề trang chủ",
+      "description": "(meta) Mô tả trang chủ"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Tiêu đề trang chủ",
+      "description": "Mô tả trang chủ"
+    },
+    "about": {
+      "title": "Giới thiệu về chúng tôi Tiêu đề",
+      "description": "Mô tả về chúng tôi"
+    },
+    "contact": {
+      "title": "Tiêu đề liên hệ",
+      "description": "Mô tả liên lạc"
+    },
+    "other": {
+      "title": "Tiêu đề khác",
+      "description": "Mô tả khác"
+    }
+  },
+  "errors": {
+    "404": {
+      "message": "404 Trang không tìm thấy"
+    }
+  }
+}

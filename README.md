@@ -1,2 +1,2 @@
-# cms-next-js
+# cms-app
 full stack with next js

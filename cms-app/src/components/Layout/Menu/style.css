@@ -1,0 +1,7 @@
+ul._menu {
+  @apply bg-sky-300 w-full flex justify-center gap-2;
+}
+
+ul._menu li {
+  @apply border border-rose-300;
+}
