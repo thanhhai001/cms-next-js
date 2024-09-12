@@ -11,6 +11,12 @@
     },
     "other": {
       "title": "Other"
+    },
+    "signup": {
+      "title": "Signup"
+    },
+    "login": {
+      "title": "Login"
     }
   },
   "meta": {
@@ -41,5 +47,8 @@
     "404": {
       "message": "404 Page Not Found"
     }
+  },
+  "validations": {
+    "required": "field is required"
   }
 }

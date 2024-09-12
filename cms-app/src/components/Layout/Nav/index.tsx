@@ -4,7 +4,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="bg-orange-300 p-5">Page / Step / 1 / 2</nav>
+      <nav className="icon">Page / Step / 1 / 2</nav>
     </>
   )
 }

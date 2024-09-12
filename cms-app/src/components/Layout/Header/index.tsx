@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <u>|Icon Here|</u>
+        <u className="icon">|Icon Here|</u>
         Page Header
       </header>
     </>

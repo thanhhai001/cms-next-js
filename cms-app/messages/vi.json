@@ -11,6 +11,12 @@
     },
     "other": {
       "title": "Khác"
+    },
+    "signup": {
+      "title": "Đăng ký"
+    },
+    "login": {
+      "title": "Đăng nhập"
     }
   },
   "meta": {
@@ -41,5 +47,8 @@
     "404": {
       "message": "404 Trang không tìm thấy"
     }
+  },
+  "validations": {
+    "required": "field is required"
   }
 }

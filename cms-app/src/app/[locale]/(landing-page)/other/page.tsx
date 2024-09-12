@@ -1,10 +1,8 @@
-import { I18nLocale } from '@/definitions';
-import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { I18nParams } from '@/definitions';
+import { useLocaleStaticParam } from '@/hooks';
 
-export default function OtherPage({ params: { locale } }: { params: { locale: I18nLocale } }) {
-  unstable_setRequestLocale(locale);
-  const t = useTranslations('pages.other');
+export default function OtherPage({ params: { locale } }: I18nParams) {
+  const t = useLocaleStaticParam(locale, 'pages.other');
 
   return (
     <div>

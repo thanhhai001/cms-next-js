@@ -1,11 +1,9 @@
-import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
-import { I18nLocale } from '@/definitions';
+import { I18nParams } from '@/definitions';
+import { useLocaleStaticParam } from '@/hooks';
 
-export default function HomePage({ params: { locale } }: { params: { locale: I18nLocale } }) {
-  unstable_setRequestLocale(locale);
+export default function HomePage({ params: { locale } }: I18nParams) {
+  const t = useLocaleStaticParam(locale, 'pages.home')
 
-  const t = useTranslations('pages.home');
   return (
     <div>
       <h1 className='text-rose-400'>{t('title')}</h1>

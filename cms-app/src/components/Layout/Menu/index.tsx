@@ -10,6 +10,8 @@ export default function Menu() {
         <li><Link href="/about">{t("about.title")}</Link></li>
         <li><Link href="/contact">{t("contact.title")}</Link></li>
         <li><Link href="/other">{t("other.title")}</Link></li>
+        <li><Link href="/signup">{t("signup.title")}</Link></li>
+        <li><Link href="/login">{t("login.title")}</Link></li>
       </ul >
     </>
   )
