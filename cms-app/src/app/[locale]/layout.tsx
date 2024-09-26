@@ -4,6 +4,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import "./globals.css"
 
+import { AntdRegistry } from '@ant-design/nextjs-registry';
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -23,7 +25,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <AntdRegistry>{children}</AntdRegistry>
         </NextIntlClientProvider>
       </body>
     </html>
